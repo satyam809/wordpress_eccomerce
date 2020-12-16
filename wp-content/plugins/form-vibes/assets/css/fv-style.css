@@ -1,0 +1,38 @@
+.fv-forms-control-dashboard-wrapper > div{
+    display: block;
+    vertical-align: top;
+    padding: 0 1px 10px 1px;
+}
+.fv-forms-control-dashboard-wrapper label{
+    padding-right: 10px;
+}
+.fv-save-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.fv-setting-tabs{
+    position: relative;
+}
+.fv-setting-tabs .fv-tab-configuration{
+    border-left: 1px solid #dcdede !important;
+}
+.fv-setting-tabs .components-tab-panel__tabs button{
+    border: 1px solid #dcdede;
+    border-left:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.fv-setting-tabs .components-tab-panel__tabs button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.fv-setting-tabs .components-tab-panel__tabs .fv-active{
+    border-bottom-color: white;
+}
+
+.spin-loading{
+    background: #0a4f7e;
+}

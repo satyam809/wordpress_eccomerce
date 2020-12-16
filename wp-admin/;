@@ -1,0 +1,9 @@
+<?php 
+
+   $array['error'] = false;
+   $array['list'] = array('Lucknow' , 'New Delhi' , 'Patna');
+   echo json_encode($array);
+   die;
+
+
+?>
